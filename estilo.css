@@ -1,0 +1,30 @@
+body{
+    background: #373F51;
+}
+h1{
+    text-align: center;
+}
+
+.botao{
+    
+    width: 60px;
+    height: 90px;
+}
+.bts{
+    background: #CC2936;
+}
+
+#visor{
+    width: 83%;
+    background: #D0FFD6;
+    height: 90px;
+}
+#botoes{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 40px ;
+}
