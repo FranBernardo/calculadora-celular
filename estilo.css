@@ -1,30 +1,32 @@
 body{
-    background: #373F51;
+    background-color: #333745;
+    font-family: 'Lemonada', cursive;
 }
 h1{
+    color: #CC7E85;
     text-align: center;
 }
-
-.botao{
+.cor {
     
-    width: 60px;
-    height: 90px;
+    
+    align-items: center;
+    background-color: #CC7E85;
+    width: 3em;
 }
-.bts{
-    background: #CC2936;
+#posicao{
+    margin: auto;
+    padding: 50px;
+}
+.ps{
+    margin-top: 20%;
 }
 
-#visor{
-    width: 83%;
-    background: #D0FFD6;
-    height: 90px;
-}
-#botoes{
-    margin-top: 50px;
-    margin-left: 50px;
-}
+
+
+
 
 footer p{
     text-align: center;
+    color: #CC7E85;
     margin-top: 40px ;
 }
