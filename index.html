@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Calculadora</title>
     <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
@@ -11,52 +10,50 @@
 </head>
 <body>
     
-    <form action="" name="calc" >
-        <div id="calculadora" class=".container-lg ps">
+    <form name="calc" >
+        <div id="calculadora" class=" ps">
             <h1>Calculadora</h1>
             <div id="posicao">
-            <input type="text" class="form-control" name="visor" id="visor">
+            <input type="text" name="visor" class="visor" id="visor">
         <div id="primeira"><br>
             
-            <input type="button" value="7" class="cor btn btn-dark btn-lg " onclick="botao(value)">
-            <input type="button" value="8" class="cor   btn btn-dark btn-lg" onclick="botao(value)">
-            <input type="button" value="9" class="cor btn btn-dark btn-lg" onclick="botao(value)">
-            <input type="button" value="/" class="cor btn btn-dark btn-lg" onclick="botao(value)">
+            <input type="button" value="7" class="cor btn  " onclick="botao(value)"> <!--Pasando o valor direto economiza tempo.-->
+            <input type="button" value="8" class="cor   btn " onclick="botao(value)">
+            <input type="button" value="9" class="cor btn " onclick="botao(value)">
+            <input type="button" value="/" class="cor btn " onclick="botao(value)">
     </div>
 
     <div id="segunda">
             
-        <input type="button" value="4" class="cor btn btn-dark btn-lg" onclick="botao(value)">
-        <input type="button" value="5" class="cor btn btn-dark btn-lg" onclick="botao(value)">
-        <input type="button" value="6" class="cor btn btn-dark btn-lg" onclick="botao(value)">
-        <input type="button" value="*" class="cor btn btn-dark btn-lg " onclick="botao(value)">
+        <input type="button" value="4" class="cor btn " onclick="botao(value)">
+        <input type="button" value="5" class="cor btn " onclick="botao(value)">
+        <input type="button" value="6" class="cor btn " onclick="botao(value)">
+        <input type="button" value="*" class="cor btn  " onclick="botao(value)">
 </div>
     <div id="terceira">
                 
-        <input type="button" value="1" class="cor btn btn-dark btn-lg" onclick="botao(value)">
-        <input type="button" value="2" class="cor btn btn-dark btn-lg" onclick="botao(value)">
+        <input type="button" value="1" class="cor btn " onclick="botao(value)">
+        <input type="button" value="2" class="cor btn " onclick="botao(value)">
         
         
-        <button type="button" class="cor btn btn-dark btn-lg" onclick="botao(value)" value="3">3</button>
-        <button type="button" class="cor btn btn-dark btn-lg" onclick="botao(value)" value="-">-</button>
+        <button type="button" class="cor btn " onclick="botao(value)" value="3">3</button>
+        <button type="button" class="cor btn " onclick="botao(value)" value="-">-</button>
     </div>
     <div id="terceira">
-        <button type="button" class="cor btn btn-dark btn-lg" onclick="botao(value)" value="0">0</button> 
-        <button type="button" class="cor btn btn-dark btn-lg" onclick="botao(value)" value="+">+</button>
-        <button type="button" class="cor btn btn-dark btn-lg" onclick="calcular()">=</button>
-        <button type="button" class="cor btn btn-dark btn-lg" onclick="resete()">C</button>
+        <button type="button" class="cor btn " onclick="botao(value)" value="0">0</button> 
+        <button type="button" class="cor btn " onclick="botao(value)" value="+">+</button>
+        <button type="button" class="cor btn " onclick="calcular()">=</button>
+        <button type="button" class="cor btn " onclick="resete()">C</button>
         
     </div>
 </div>
-</div>
+
 
     </form>
 <footer>
     <p> &copy; Fran Bernardo</p>
 </footer>
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</div>
+
 </body>
 </html>
